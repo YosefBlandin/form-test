@@ -1,0 +1,14 @@
+.transparentCard {
+  max-width: 300px;
+  color: #fff;
+}
+
+.transparentCardTitle {
+  margin-bottom: 70px;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.transparentCardDescription {
+  text-align: start;
+}

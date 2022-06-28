@@ -1,0 +1,11 @@
+.button {
+  width: 100%;
+  min-height: 50px;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  background-color: rgb(40, 110, 250);
+}

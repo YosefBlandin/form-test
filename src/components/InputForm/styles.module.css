@@ -1,0 +1,73 @@
+.inputFormContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 30px;
+}
+
+.inputFormContainer .inputFormInput {
+  min-height: 50px;
+  padding-left: 15px;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid rgb(241, 241, 241);
+}
+
+.inputFormContainer .inputFormInputError {
+  border: 1px solid rgb(255, 89, 89);
+}
+
+.inputFormLabel {
+  position: absolute;
+  top: 18px;
+  right: 0;
+  bottom: 0;
+  width: fit-content;
+  height: fit-content;
+  left: 15px;
+  font-size: 1rem;
+  color: gray;
+  pointer-events: none;
+  transition: 0.2s ease;
+}
+
+.inputFormLabelError {
+  color: rgb(255, 89, 89);
+}
+
+.inputFormLabelActive {
+  top: -8px;
+  background-color: white;
+  font-size: 0.8rem;
+}
+
+.inputFormSpan {
+  margin-top: 14px;
+  color: gray;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.inputFormError {
+  margin-top: 14px;
+  color: rgb(255, 89, 89);
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.inputFormIcon {
+  position: absolute;
+  top: 17px;
+  right: 10px;
+  bottom: 0;
+  font-size: 1.3rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .inputFormIcon {
+    top: 17px;
+    right: 15px;
+    cursor: pointer;
+  }
+}
